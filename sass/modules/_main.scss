@@ -1,0 +1,226 @@
+.hidden {
+    display: none;
+}
+.page1{
+    width: 100%;
+    background-image: url("/images/ipad.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+
+}
+
+#page2 {
+    background-color: #000;
+}
+#page2 h2 {
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 5.5vh;
+    display: block;
+    text-align: center;
+
+}
+
+.bottom-line3 {
+    margin-top: 1em;
+    width: 30%;
+    height: 2px;
+
+    background-color: white;
+    opacity: 100%;
+}
+
+
+#page3 {
+
+   background-color: #000;
+}
+
+
+
+.topper img { 
+
+    max-height: 40px;
+}
+
+.lightbox  { 
+    opacity: (1);
+    background-color: #555;
+    border-radius: 2.5em;
+    position: fixed;
+    top: 20%;
+    left: 40%;
+
+    color: #FFF;
+    font-family: "Arial Black"
+}
+.lightbox h1 {
+    text-align: center;
+}
+.lightbox img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 1em;
+        
+    }
+    
+
+.container-1{
+    padding-top: 5em;
+
+}
+.container-1 img {
+    border-radius: 3em;
+    border: 10px solid #555;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+#Item1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+   font-size: 3.5vh;
+    margin-top: .5em;
+   
+   
+}
+
+#Item1 h3{
+    color: #000;
+    background-color: #FFF;
+    padding: .1em .5em;
+    border-radius: 0.25em;
+    font-family: "Arial Black"
+    
+}
+
+#Item1 h3:hover {
+    background-color: #696868;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+
+}
+#Item4 h3{
+    color: #000;
+    background-color: #FFF;
+    padding: .1em .5em;
+    border-radius: 0.25em;
+    font-family: "Arial Black"
+    
+}
+#Item4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+   font-size: 3.5vh;
+    margin-top: .5em;
+   
+   
+}
+
+#Item4 h3:hover {
+    background-color: #696868;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+
+}
+#Item7 h3{
+    color: #000;
+    background-color: #FFF;
+    padding: .1em .5em;
+    border-radius: 0.25em;
+    font-family: "Arial Black"
+    
+}
+#Item7{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+   font-size: 3.5vh;
+    margin-top: .5em;
+   
+   
+}
+
+#Item7 h3:hover {
+    background-color: #696868;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+
+}
+
+.threeitem {
+    display: grid;
+    grid-column: 3 / span 3;
+    grid-template-columns: repeat(3, 3fr);
+    justify-content: space-evenly;
+    gap: 20em;
+
+
+}
+
+
+
+.firstItem img{
+    margin-top: 2em;
+    border-radius: 3em;
+    width: 80%;
+
+}
+.TwoItem img{
+    margin-top: 2em;
+    border-radius: 3em;
+    width: 80%;
+
+}
+
+#container-2 {
+
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+#page4{
+    background-color: #000;
+}
+.page4 h1 {
+    font-size: 3.5vw;
+	text-align:center;
+    margin-left: .5em;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.Infobtn {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5vw;
+
+}
+.btnstyle{
+    margin-bottom: 2em;
+}
+#selectorINFO {
+    margin-top: 2em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.InfoTitle{
+    color:#fff;
+    background-color: #000;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5vw;
+  text-align: center;
+
+}

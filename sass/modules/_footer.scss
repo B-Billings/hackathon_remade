@@ -1,0 +1,29 @@
+.footernav ul li{
+	display: none;
+}
+.mainfooter{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+max-width: 100%;
+background-color: #696868;
+}
+
+.textFoot{
+	color: rgb(221, 221, 221);
+	padding: 3%;
+	font-size: 0.3vw;
+	text-align:center;
+}
+
+.footernav img{
+margin-top: 1em;
+position: relative;
+left: 30%;
+max-width: 35%;
+}
+.footernav p{
+  margin-left: 0px;
+  font-family: 'Titillium Web', sans-serif;
+    font-size: 2vw;
+}
