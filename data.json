@@ -1,0 +1,47 @@
+ 
+ 
+{
+  
+    "Item1": {
+        "name":"Features",
+        "Image":"item1.jpg",
+        "favouritepart": "GUI included the ability to view the current indoor temperature, outdoor temperature, daily forecast, weekly forecast"
+    },
+    "Item2": {
+        "name":"Platforms",
+        "description":"",
+        "favouritepart": "All communications with the central system are accessible and controlled through the wall unit, product appAll communications with the central system are accessible and controlled through the wall unit, product app",
+        "Image":"device2.jpg"
+    },
+    "Item3": {
+        "name":"Components",
+        "description":"",
+        "favouritepart": "Made with glass, plastic Bezel, OLG Screen, Metal Bezel, Plastic Case. Built-in Proximity sensor to actives system to on state when viewer is close.",
+        "Image":"item2.jpg"
+    },
+ 
+    "Item4": {
+        "name":"Buy Now",
+        "description":"",
+        "favouritepart": "HouseCom™ ThermoSecurity™ System now available at Best Buy, Amazon, Walmart for CAD$329",
+        "Image":"item4M.jpg"
+    },
+    "Item5": {
+        "name":"5",
+        "description":"",
+        "favouritepart": "",
+        "Image":".jpg"
+    },
+    "Item6": {
+        "name":"6",
+        "description":"",
+        "favouritepart": "",
+        "Image":".jpg"
+    },
+    "Item7": {
+        "name":"6",
+        "description":"",
+        "favouritepart": "",
+        "Image":".jpg"
+    }
+  }

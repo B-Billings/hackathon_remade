@@ -1,0 +1,108 @@
+@media screen and (max-width: 768px) {
+    // add the grid to the team section
+.nav2 {
+    display: none;
+}
+.top-line {
+    display: none;
+}
+.bottom-line{
+    display: none;
+}
+#logo {
+    margin-top: 1em;
+    width: 20%;
+}
+.nav1 img{
+    width: 15%;
+}
+
+.desc1  {
+    font-size: 3.5vw;
+	text-align:left;
+    margin-left: .5em;
+    margin-top: 32%;
+
+    
+}
+.twoitem {
+   
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        gap: 1rem;
+
+}
+#page2 h2 {
+    margin-top: 0%;
+}
+#page2 img{
+    border-radius: 3em;
+    border: 5px solid #555;
+    width: 50%;
+    margin-left: 8em;
+    margin-top: 2em;
+
+}
+#page2 p{
+
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5vh;
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+
+   
+}
+}
+@media screen and (min-width: 768px){
+
+
+    #page2 h2 {
+        margin-top: 5em;
+    }
+    #page2 img{
+        border-radius: 3em;
+        border: 5px solid #555;
+        width: 70%;
+        margin-left: 2em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+    
+    }
+    #page2 p{
+
+        color: #fff;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 3.5vh;
+        display: block;
+        text-align: center;
+        margin-top: 2em;
+    
+       
+    }
+    .desc1  {
+        font-size: 3.5vw;
+        text-align:left;
+        margin-left: .5em;
+        margin-top: 40%;
+    
+        
+    }
+
+.twoitem {
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: space-evenly;
+
+
+}
+}
+
+
+
+
+

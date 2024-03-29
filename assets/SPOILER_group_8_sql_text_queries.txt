@@ -1,0 +1,21 @@
+1)Results 
+-HouseCom™ ThermoSecurity™ System  , Original,     Original Version, CA$329
+-HouseCom™ ThermoSecurity™ System  , Black,     Black Version,    CA$329
+-1 Years Protection,    CAD$100
+-Best Buy,    U.S., Mexico, and Canada
+-Amazon ,    Global Shipping
+-Walmart,    U.S., Mexico, and Canada
+SQL: SELECT model_name, model_type, model_price FROM tbl_models GROUP BY model_id;
+SELECT  sub_name, sub_price FROM tbl_subs WHERE sub_price < 'CAD$150' ;
+SELECT shops_name,shops_addy From tbl_shops ORDER BY shops_id
+Aim: To Fetch all the available model with a subscription plan that is lower than CAD$150, and all the shops that sells the product from the database.
+
+2)SQL:SELECT connection_type FROM tbl_connections WHERE connection_version = 'Wireless';
+Results: Wifi
+Bluetooth
+Aim: To find out what options is there for wireless connections
+
+3)SQL:SELECT COUNT(components_id) FROM tbl_components;
+Select Count(features_id) From tbl_features;
+results: 5, 5
+Aim: To count how many features and components are there
